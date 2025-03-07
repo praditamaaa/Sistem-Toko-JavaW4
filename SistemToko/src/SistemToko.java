@@ -24,6 +24,7 @@ public class SistemToko {
 
         // inisialisasi object Produk
         Kemeja kemeja = new Kemeja("Kemeja Batik", 250000, 10, kategoriPakaian, "L", "Katun");
+        Celana celana = new Celana("Celana Loose Pants", 150000, 5,kategoriPakaian, "30", "katun");
         Elektronik laptop = new Elektronik("Laptop MacBook", 15000000, 5, kategoriElektronik, 100);
         Buku buku = new Buku("Pemrograman Java", 120000, 20, kategoriBuku, "John Doe");
 
@@ -32,6 +33,7 @@ public class SistemToko {
 
         // Penjual Menambahkan Produk
         penjual1.tambahProduk(kemeja);
+        penjual1.tambahProduk(celana);
         penjual1.tambahProduk(laptop);
         penjual1.tambahProduk(buku);
 
@@ -55,8 +57,8 @@ public class SistemToko {
         pembeli1.tampilkanRiwayat();
 
         // Kirim Notifikasi untuk masing masing user
-        admin.kirimNotifikasi("Selamat datang, Admin!");
-        penjual1.kirimNotifikasi("Produk baru telah ditambahkan.");
+        admin.kirimNotifikasi("Telah terjadi transaksi di toko BestBuy");
+        penjual1.kirimNotifikasi("Selamat! Produk telah terjual");
         pembeli1.kirimNotifikasi("Pembelian Anda berhasil!");
     }
 }
