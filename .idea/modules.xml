@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SistemToko/SistemToko.iml" filepath="$PROJECT_DIR$/SistemToko/SistemToko.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coba gpt.iml" filepath="$PROJECT_DIR$/.idea/coba gpt.iml" />
+    </modules>
+  </component>
+</project>
